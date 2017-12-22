@@ -9,4 +9,9 @@ $(document).ready(function () {
         percentPosition: true
     });
 
+
+    $(".card").addClass("animated fadeInRight wow");
+
+    $(".section1").removeClass('hidden');
+
 });
