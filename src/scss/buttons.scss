@@ -1,0 +1,23 @@
+/* buttons */
+
+.btn {
+    font-weight: 200;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 50px;
+    border: none;
+}
+
+.btn-primary {
+    color: #000;
+    background: #ffff00;
+    padding: 10px;
+    transition: .8s;
+}
+
+.btn:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}

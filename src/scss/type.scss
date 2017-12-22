@@ -1,0 +1,90 @@
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans|Raleway:400italic,700italic,400,700,300,800);
+
+// Font Variables
+$raleway:'Raleway',
+serif;
+
+$roboto-slab: 'Roboto Slab',
+serif;
+
+$open-sans: 'Open Sans',
+sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $raleway;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #232526;
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #000;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+h6 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-variant-caps: all-small-caps;
+}
+
+p,
+ol,
+li,
+ul {
+    font-family: $raleway;
+    font-weight: $light;
+    color: #000;
+    font-size: 14px;
+}
+
+.figure-caption {
+    font-family: $raleway;
+    font-weight: 100;
+    color: #000;
+    font-size: .9em;
+}
+
+i {
+    font-family: $raleway;
+    color: #000;
+}
+
+a {
+    font-family: $raleway;
+    color: blue;
+    font-weight: 400;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    color: #000;
+    background-color: #000;
+}
+
+.bold {
+    font-weight: $bold;
+}
+
+.light {
+    font-weight: $light;
+}

@@ -1,0 +1,55 @@
+/*
+ * Sidebar
+ */
+
+.sidebar {
+    position: sticky;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding: 20px 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-left: 0;
+
+    .nav {
+        margin-bottom: 20px;
+
+        .nav-item {
+            width: 100%;
+            padding: 10%;
+            text-align: center;
+        }
+        a.nav-link {
+            border-radius: 0;
+            font-size: 18px;
+            color: #000;
+            &:active,
+            &:hover {
+                font-weight: $bold;
+                transition-duration: .5s;
+            }
+            &:focus {}
+            &:visited {}
+
+        }
+    }
+
+}
+
+
+/*
+ * Dashboard
+ */
+
+/* Placeholders */
+
+.placeholders {
+    padding-bottom: 3rem;
+}
+
+.placeholder img {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
