@@ -1,17 +1,21 @@
 $(document).ready(function () {
     $(".card").addClass("animated fadeInRight wow");
+    $(".card").addClass("animated fadeInRight wow");
+    $("#item1").addClass("animated fadeInUp wow");
 
-    $(".section").addClass("animated bounceInBottom wow");
+    var cardArray = {};
+    cardArray["#card1"] = "#item1";
+    cardArray["#card2"] = "#item2";
+    cardArray["#card3"] = "#item3";
+    cardArray["#card4"] = "#item4";
 
-    $('.row').masonry({
-        itemSelector: '.col-sm-4', // use a separate class for itemSelector, other than .col-
-        columnWidth: '.col-sm-4',
-        percentPosition: true
+    $("#card1").on('click', function () {
+        $("#item1").toggleClass("d-none");
     });
 
-
-    $(".card").addClass("animated fadeInRight wow");
-
-    $(".section1").removeClass('hidden');
+    $("#item1 i").on('click', function () {
+        $("#item1").toggleClass("d-none");
+        $("#item1").hide();
+    });
 
 });

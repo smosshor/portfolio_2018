@@ -4,7 +4,6 @@
 
 .sidebar {
     position: sticky;
-    top: 51px;
     bottom: 0;
     left: 0;
     z-index: 1;
@@ -12,7 +11,12 @@
     overflow-x: hidden;
     overflow-y: auto;
     margin-left: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    height: 100vh;
+    background: $light-blue;
+    width: 100%;
 
     .nav {
         margin-bottom: 20px;
@@ -24,8 +28,8 @@
         }
         a.nav-link {
             border-radius: 0;
-            font-size: 18px;
-            color: #000;
+            font-size: 16px;
+            color: #fff;
             &:active,
             &:hover {
                 font-weight: $bold;
@@ -37,20 +41,4 @@
         }
     }
 
-}
-
-
-/*
- * Dashboard
- */
-
-/* Placeholders */
-
-.placeholders {
-    padding-bottom: 3rem;
-}
-
-.placeholder img {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
 }

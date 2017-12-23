@@ -1,0 +1,10 @@
+.item-section {
+    top: -100vh;
+    z-index: 1;
+    margin-left: 17%;
+    transition-duration: 2s;
+    background: white;
+    @media (max-width: 600px) {
+        margin: 0px;
+    }
+}
