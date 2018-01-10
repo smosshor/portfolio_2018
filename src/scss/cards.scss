@@ -5,9 +5,8 @@
     z-index: 1;
 
     .card-img {
-        background-image: url(http://via.placeholder.com/350x150);
-        background-size: cover;
-        height: 200px;
+        height: auto;
+        width: 100%;
         border-radius: 0px;
         &:hover {
             background: #00008b;

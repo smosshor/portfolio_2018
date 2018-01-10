@@ -2,12 +2,15 @@
  * Sidebar
  */
 
+$gutter: 15px;
+$animate: all 0.2s ease-in-out;
+$rounded: 4px;
+
 .sidebar {
     position: sticky;
     bottom: 0;
     left: 0;
     z-index: 1;
-    padding: 20px 10px;
     overflow-x: hidden;
     overflow-y: auto;
     margin-left: 0;
@@ -15,28 +18,29 @@
     -ms-flex-pack: center;
     justify-content: center;
     height: 100vh;
-    background: $light-blue;
     width: 100%;
 
     .nav {
-        margin-bottom: 20px;
-
         .nav-item {
             width: 100%;
-            padding: 10%;
             text-align: center;
+
         }
         a.nav-link {
             border-radius: 0;
             font-size: 16px;
-            color: #fff;
+            color: #2d215b;
+            font-weight: $light;
+
             &:active,
             &:hover {
-                font-weight: $bold;
                 transition-duration: .5s;
+                background: none;
+                border-bottom: 2px solid;
+                transition: $animate;
+                transition-duration: 0.75s;
+                padding: 0px;
             }
-            &:focus {}
-            &:visited {}
 
         }
     }

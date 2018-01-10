@@ -1,10 +1,15 @@
 .item-section {
-    top: -100vh;
-    z-index: 1;
+    position: absolute;
     margin-left: 17%;
+    top: 0;
+    z-index: 2;
     transition-duration: 2s;
-    background: white;
-    @media (max-width: 600px) {
+    background: #fff;
+    .fa-5x {
+        font-size: 5em;
+        float: right;
+    }
+    @media (max-width: 700px) {
         margin: 0px;
     }
 }

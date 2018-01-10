@@ -1,21 +1,21 @@
 $(document).ready(function () {
+
+    // add animation classes with javascript 
     $(".card").addClass("animated fadeInRight wow");
     $(".card").addClass("animated fadeInRight wow");
-    $("#item1").addClass("animated fadeInUp wow");
 
-    var cardArray = {};
-    cardArray["#card1"] = "#item1";
-    cardArray["#card2"] = "#item2";
-    cardArray["#card3"] = "#item3";
-    cardArray["#card4"] = "#item4";
 
+    // Click to show portfolio details, hide when 'X' is clicked
     $("#card1").on('click', function () {
+        $("#item1").load("animalcop.html");
+        console.log('DONE');
+
         $("#item1").toggleClass("d-none");
+        $("#item1").addClass("animated fadeInUp wow");
     });
 
     $("#item1 i").on('click', function () {
         $("#item1").toggleClass("d-none");
-        $("#item1").hide();
     });
 
 });
