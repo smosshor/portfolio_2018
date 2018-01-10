@@ -2,8 +2,6 @@ $(document).ready(function () {
 
     // add animation classes with javascript 
     $(".card").addClass("animated fadeInRight wow");
-    $(".card").addClass("animated fadeInRight wow");
-
 
     // Click to show portfolio details, hide when 'X' is clicked
     $("#card1").on('click', function () {
@@ -13,8 +11,8 @@ $(document).ready(function () {
     });
 
     $("#item1x").on('click', function () {
+        console.log('clicked');
         $("#item1").toggleClass("d-none");
-
     });
 
 });
