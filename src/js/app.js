@@ -11,8 +11,8 @@ $(document).ready(function () {
     });
 
     $("#item1x").on('click', function () {
-        console.log('clicked');
-        $("#item1").toggleClass("d-none");
+        $("a#item1").toggleClass("d-none");
+        alert('Cancel action occurs!');
     });
 
 });
