@@ -11,8 +11,15 @@ $(document).ready(function () {
     });
 
     $("#item1x").on('click', function () {
-        $("a#item1").toggleClass("d-none");
-        alert('Cancel action occurs!');
-    });
+        e.preventDefault();
+        e.preventDefault();
 
+        $("#item1").addClass("d-none");
+
+    });
+});
+
+$('#item1x').on('click', 'toggle-item', function (e) {
+    e.preventDefault();
+    $(this).parent().next('#item1').toggle();
 });
