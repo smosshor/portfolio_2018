@@ -1,25 +1,34 @@
+/*Needed steps: 
+- User clicks a given card  
+- load content based on url and save into variable
+- 
+
+*/
+
 $(document).ready(function () {
 
-    // add animation classes with javascript 
-    $(".card").addClass("animated fadeInRight wow");
 
-    // Click to show portfolio details, hide when 'X' is clicked
-    $("#card1").on('click', function () {
-        $("#item1").load("animalcop.html");
-        $("#item1").toggleClass("d-none");
-        $("#item1").addClass("animated fadeInUp wow");
-    });
-
-    $("#item1x").on('click', function () {
-        e.preventDefault();
+    // Function to control clicking on a card
+    $('#cards a').click(function () {
         e.preventDefault();
 
-        $("#item1").addClass("d-none");
+        // save content to load into a variable -- #content-- 
+        var toLoad = $(this).attr('href') + '#content';
+        loadContent(toLoad);
 
+        //Load content, contains showNewContent
+        function loadContent() {
+            $('#contentSection').load(toLoad);
+        }
     });
-});
+    // Function to control clicking OUT of a card
 
-$('#item1x').on('click', 'toggle-item', function (e) {
-    e.preventDefault();
-    $(this).parent().next('#item1').toggle();
+    $('#itemx a').click(function () {
+        //hide the content on the currrent page 
+        $('#content').hide('fast', loadContent);
+    });
+
+
+
+
 });
