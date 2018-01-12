@@ -11,7 +11,10 @@ serif;
 $open-sans: 'Open Sans',
 sans-serif;
 
-h1,
+h1 {
+    font-family: $raleway;
+}
+
 h2,
 h3,
 h4,

@@ -3,18 +3,26 @@ body {
     background: white;
 }
 
+.introSection {
+    text-align: center;
+    .jumbotron {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+
 
 /* SVG logo animation */
 
 .intro {
-
     background-color: green;
     height: 100vh;
 }
 
 
 .right-section {
-    background: #fbfbfb;
+    border-left: solid #fbfbfb;
 }
 
 svg {
