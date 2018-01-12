@@ -16,30 +16,39 @@ $rounded: 4px;
     margin-left: 0;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
     height: 100vh;
-    width: 100%;
-
+    background: white;
     .nav {
         .nav-item {
-            width: 100%;
             text-align: center;
 
         }
-        a.nav-link {
+        .nav-link {
             border-radius: 0;
             font-size: 16px;
-            color: #2d215b;
+            color: black;
             font-weight: $light;
 
             &:active,
             &:hover {
-                transition-duration: .5s;
                 background: none;
-                text-decoration: underline;
+                border-bottom: 4px solid #2d215b;
+                display: inline-block;
+                white-space: nowrap;
+                padding: 8px 8px 8px 8px;
+
+
                 transition: $animate;
-                transition-duration: 0.75s;
-                padding: 0px;
+                transition-duration: 0.2s;
+            }
+            .nav-link.active {
+                background: none;
+                border-bottom: 4px solid #2d215b;
+                display: inline-block;
+                white-space: nowrap;
+                padding: 8px 8px 8px 8px;
+                transition: $animate;
+                transition-duration: 0.2s;
             }
 
         }

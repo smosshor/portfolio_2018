@@ -22,6 +22,47 @@
 
 .card-image {
     height: auto;
+<<<<<<< HEAD
     width: 100%;
     padding: 50px;
+=======
+    width: 110%;
+    &:hover {
+        background: rgba(25, 25, 25, .9);
+        transition: .9s;
+    }
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-description {
+    padding: 10px;
+    margin-top: -100px;
+    display: none;
+    h2,
+    p {
+        color: white;
+    }
+    &:hover {
+        display: block;
+        text-decoration: none;
+        position: fixed;
+    }
+}
+
+.card-section:hover .card-description {
+    display: block;
+    text-decoration: none;
+    position: fixed;
+}
+
+.card-section:hover .card-image {
+    background: rgba(25, 25, 25, .9);
+    transition: .9s;
+>>>>>>> ca4e394d1e479cc4757bbc784bef58cd36c39789
 }

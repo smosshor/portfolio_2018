@@ -29,6 +29,17 @@ $(document).ready(function () {
     });
 
 
+    /* Masonary
 
+    var $grid = $('.card-section').masonry({
+        itemSelector: '.card-image',
+        columnWidth: '300px',
+        percentPosition: true,
+        transitionDuration: 0,
+    });
 
+    $grid.imagesLoaded().progress(function () {
+        $grid.masonry();
+    });
+*/
 });
