@@ -32,8 +32,6 @@ var PATHS = {
   ],
     buildassets: [
     'build/css/',
-     'build/img/',
-     'build/bg_assets/',
     'build/fonts/',
     'build/js/'
   ]
