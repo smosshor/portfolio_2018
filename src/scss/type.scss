@@ -1,7 +1,11 @@
 // Google Fonts
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans|Raleway:400italic,700italic,400,700,300,800);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans|Abril+Fatface|Raleway:400italic,700italic,400,700,300,800);
+
+
 
 // Font Variables
+$abril:'Abril Fatface',
+cursive;
 $raleway:'Raleway',
 serif;
 
@@ -11,9 +15,6 @@ serif;
 $open-sans: 'Open Sans',
 sans-serif;
 
-h1 {
-    font-family: $raleway;
-}
 
 h2,
 h3,
@@ -27,15 +28,15 @@ h5 {
 }
 
 h1 {
-    font-weight: 700;
+    font-family: $abril;
     padding-top: 40px;
     padding-bottom: 10px;
-    color: #000;
+    color: #38393a;
     text-align: center;
 }
 
 h3 {
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 h4 {
@@ -90,4 +91,8 @@ hr {
 
 .light {
     font-weight: $light;
+}
+
+.nav-link {
+    font-family: $abril;
 }
