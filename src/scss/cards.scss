@@ -1,20 +1,11 @@
 .card-image {
     height: auto;
-<<<<<<< HEAD
-    width: 100%;
-=======
-<<<<<<< HEAD
     width: 100%;
     padding: 50px;
-=======
-    width: 110%;
     &:hover {
         background: rgba(25, 25, 25, .9);
         transition: .9s;
     }
-}
->>>>>>> 2a521f3553cff015a8205ff04d3050fc315155ff
-
 }
 
 .card-description {
@@ -41,9 +32,4 @@
 .card-section:hover .overlay {
     background: pink;
     transition: .9s;
-<<<<<<< HEAD
-    z-index: 4;
-=======
->>>>>>> ca4e394d1e479cc4757bbc784bef58cd36c39789
->>>>>>> 2a521f3553cff015a8205ff04d3050fc315155ff
 }
