@@ -7,10 +7,25 @@
 
 $(document).ready(function () {
 
+    $('.portfolioItem1').css("background", red);
 
-    // Function to control clicking on a card
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.portfolioItem1').css("background", red);
+        }
+    });
+});
+
+
+
+
+
+
+/*Function to control clicking on a card
     $('#cards a').click(function () {
         e.preventDefault();
+        
+        url(/Users/Sarah/Documents/GitHub/portfolio_2018/src/img/bg2.jpg)
 
         // save content to load into a variable -- #content-- 
         var toLoad = $(this).attr('href') + '#content';
@@ -27,19 +42,4 @@ $(document).ready(function () {
         //hide the content on the currrent page 
         $('#content').hide('fast', loadContent);
     });
-
-
-    /* Masonary
-
-    var $grid = $('.card-section').masonry({
-        itemSelector: '.card-image',
-        columnWidth: '300px',
-        percentPosition: true,
-        transitionDuration: 0,
-    });
-
-    $grid.imagesLoaded().progress(function () {
-        $grid.masonry();
-    });
-*/
-});
+    */

@@ -21,7 +21,27 @@ body {
 }
 
 
-.right-section {
-    border-left: solid #fbfbfb;
-    background-image: url(src/img/bg1.png);
+.portfolioItem1 {
+    background: #55bfda;
+    background-repeat: repeat-x;
 }
+
+
+.portfolioItem2 {
+    background: url(/Users/Sarah/Documents/GitHub/portfolio_2018/src/img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*
+.bottom-section {
+    background: url(/Users/Sarah/Documents/GitHub/portfolio_2018/src/img/bg1.svg);
+    height: 20vh;
+    margin-top: -20vh;
+    background-repeat: repeat-x; //hide on small screens
+    @media (max-width: 800px) {
+        display:none;
+    }
+}
+*/
