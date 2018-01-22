@@ -1,5 +1,5 @@
 // Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:300,400,700|Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:300,400,700|Abril+Fatface:400,700');
 
 // Font Variables
 $abril:'Abril Fatface',
@@ -9,10 +9,8 @@ serif;
 
 $roboto-slab: 'Roboto Slab',
 serif;
-
 $lato: 'Lato',
 sans-serif;
-
 
 h3,
 h4,
@@ -33,17 +31,16 @@ h2 {
 
 h1 {
     text-align: center;
+    font-size: 3em;
 }
 
 h2 {
-    color: white;
-    text-align: left;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 1.8em;
     font-variant-caps: all-small-caps;
-    color: white;
 }
 
 h4 {
@@ -64,7 +61,7 @@ ul {
     font-family: $raleway;
     font-weight: $light;
     color: #000;
-    font-size: 14px;
+    font-size: 1em;
 }
 
 .figure-caption {
@@ -77,6 +74,8 @@ ul {
 i {
     font-family: $lato;
     color: #000;
+    font-size: .9em;
+    margin-bottom: 20px;
 }
 
 a {
@@ -96,10 +95,13 @@ hr {
     font-weight: $bold;
 }
 
-.light {
-    font-weight: $light;
+.italic {
+    font-style: italic;
+    font-weight: $bold;
+    border-left: 1px black solid;
+    padding-left: 15px;
 }
 
-.nav-link {
-    font-family: $abril;
+.light {
+    font-weight: $light;
 }
