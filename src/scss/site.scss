@@ -1,47 +1,48 @@
 body {
-    position: relative;
-    background: white;
+	position: relative;
+	background: white;
 }
 
 .introSection {
-    text-align: center;
-    .jumbotron {
-        width: 60%;
-        margin-left: 20%;
-    }
+	text-align: center;
+	.jumbotron {
+		width: 60%;
+		margin-left: 20%;
+	}
 }
 
 
-
-/* SVG logo animation */
-
-.intro {
-    background-color: green;
-    height: 100vh;
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 10;
 }
 
-
-.portfolioItem1 {
-    background: #55bfda;
-    background-repeat: repeat-x;
+.animalCop {
+	background: #5c6bc0;
 }
 
-
-.portfolioItem2 {
-    background: url(/Users/Sarah/Documents/GitHub/portfolio_2018/src/img/bg2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.mindful {
+	background: #a5d6d6;
 }
 
-
-/*
-.bottom-section {
-    background: url(/Users/Sarah/Documents/GitHub/portfolio_2018/src/img/bg1.svg);
-    height: 20vh;
-    margin-top: -20vh;
-    background-repeat: repeat-x; //hide on small screens
-    @media (max-width: 800px) {
-        display:none;
-    }
+.jack {
+	background: url(/Users/Sarah/Documents/GitHub/portfolio_2018/src/img/bg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-*/
+
+.bottom-curve {
+	background: url(/Users/Sarah/Documents/GitHub/portfolio_2018/src/img/bg1.svg);
+	height: 20vh;
+	bottom: 0;
+	position: fixed;
+	background-repeat: repeat-x; //hide on small screens
+	@media (max-width: 800px) {
+		display:none;
+	}
+}

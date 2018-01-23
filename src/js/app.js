@@ -5,17 +5,65 @@
 
 */
 
-$(document).ready(function () {
+$(document).ready(function () {});
 
-    $('.portfolioItem1').css("background", red);
+// Add page load 
+$(window).on('load', function () { // makes sure the whole site is loaded 
+	$('#status').fadeOut(); // will first fade out the loading animation 
+	$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+	$('body').delay(350).css({
+		'overflow': 'visible'
+	});
+})
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $('.portfolioItem1').css("background", red);
-        }
-    });
+
+// Add animation classes
+$('img').addClass("animated slideInUp wow");
+$('col-sm-3').addClass("animated fadeInUp wow");
+
+
+//Add transitions
+$(document).scroll(function () {
+	var scrollPosition = $(window).scrollTop();
+	if (scrollPosition > 1200) {
+		$('.card-description h2').text('JF Design & Build');
+		$('img.card-image').attr("src", "src/img/transparent.png");
+
+	} else if (scrollPosition > 500 && scrollPosition <= 1200) {
+		$('.card-description h2').text('Mindful');
+		$('img.card-image').attr("src", "src/img/services_testing.jpg");
+
+	} else if (scrollPosition <= 500) {
+		$('.card-description h2').text('AnimalCop Reporting');
+		$('img.card-image').attr("src", "src/img/animalCop/report-assets/Mockups/desktopMockup2.png");
+	}
 });
 
+
+
+
+/*Function to control clicking on a card
+    $('#cards a').click(function () {
+        e.preventDefault();
+        
+        url(/Users/Sarah/Documents/GitHub/portfolio_2018/src/img/bg2.jpg)
+
+        // save content to load into a variable -- #content-- 
+        var toLoad = $(this).attr('href') + '#content';
+        loadContent(toLoad);
+
+        //Load content, contains showNewContent
+        function loadContent() {
+            $('#contentSection').load(toLoad);
+        }
+    });
+    // Function to control clicking OUT of a card
+
+    $('#itemx a').click(function () {
+        //hide the content on the currrent page 
+        $('#content').hide('fast', loadContent);
+    });
+    */
 
 
 

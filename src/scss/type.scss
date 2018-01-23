@@ -1,107 +1,123 @@
 // Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:300,400,700|Abril+Fatface:400,700');
+@import url('https://fonts.googleapis.com/css?family=Arimo|Arimo:300,400,700|Georgia|Abril+Fatface:400,700');
 
 // Font Variables
 $abril:'Abril Fatface',
 cursive;
-$raleway:'Raleway',
-serif;
+
 
 $roboto-slab: 'Roboto Slab',
 serif;
-$lato: 'Lato',
+$lato: 'Arimo',
 sans-serif;
+$georgia:'Georgia',
+serif;
 
 h3,
 h4,
 h5 {
-    font-family: $lato;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #232526;
-    line-height: 1.1;
-}
-
-h1,
-h2 {
-    font-family: $abril;
-    padding-bottom: 10px;
-    color: #c1c1c1;
+	font-family: $lato;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #232526;
+	line-height: 1.1;
 }
 
 h1 {
-    text-align: center;
-    font-size: 3em;
+	font-family: $abril;
+	padding-bottom: 10px;
+	color: $light-grey;
 }
 
+h1 {
+	text-align: center;
+	font-size: 2em;
+}
+
+
+
 h2 {
-    font-size: 2em;
+	font-family: $abril;
+	font-size: 3em;
 }
 
 h3 {
-    font-size: 1.8em;
-    font-variant-caps: all-small-caps;
+	font-size: 2.2em;
+	font-variant-caps: all-small-caps;
+	font-weight: 600;
+
 }
 
 h4 {
-    font-size: 1.2em;
-    font-weight: bolder;
+	font-size: 1.2em;
+	font-weight: bolder;
 }
 
 h6 {
-    font-size: 1.5em;
-    font-weight: bolder;
-    font-variant-caps: all-small-caps;
+	font-size: 1.5em;
+	font-weight: bolder;
+	font-variant-caps: all-small-caps;
 }
 
 p,
-ol,
+	{
+	font-family: $georgia;
+	color: #000;
+	font-size: 1.2em;
+	line-height: 1.8;
+}
+
 li,
-ul {
-    font-family: $raleway;
-    font-weight: $light;
-    color: #000;
-    font-size: 1em;
+ul,
+ol,
+	{
+	font-family: $georgia;
+	color: #000;
+	font-size: 1.1em;
 }
 
 .figure-caption {
-    font-family: $lato;
-    font-weight: 100;
-    color: #000;
-    font-size: .9em;
+	font-family: $lato;
+	font-weight: 100;
+	color: #000;
+	font-size: .9em;
 }
 
 i {
-    font-family: $lato;
-    color: #000;
-    font-size: .9em;
-    margin-bottom: 20px;
+	font-family: $lato;
+	color: #000;
+	margin-bottom: 20px;
 }
 
 a {
-    font-family: $lato;
-    color: blue;
-    font-weight: 400;
+	font-family: $lato;
+	color: blue;
+	font-weight: 400;
 }
 
 hr {
-    height: 1px;
-    border: none;
-    color: #000;
-    background-color: #000;
+	height: 1px;
+	border: none;
+	color: #000;
+	background-color: #000;
 }
 
 .bold {
-    font-weight: $bold;
+	font-weight: $bold;
 }
 
 .italic {
-    font-style: italic;
-    font-weight: $bold;
-    border-left: 1px black solid;
-    padding-left: 15px;
+	font-style: italic;
+	padding-left: 15px;
+	font-size: 1.2em;
+	border-left: 1px black solid;
+	font-weight: $bold;
 }
 
 .light {
-    font-weight: $light;
+	font-weight: $light;
+}
+
+.title {
+	font-size: 42px;
 }
