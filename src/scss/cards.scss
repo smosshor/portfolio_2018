@@ -1,38 +1,40 @@
-.card-section {
-	position: fixed;
-
-	align-items: center;
-	img.card-image {
-		height: auto;
-		width: 100%;
-		padding: 50px;
-		transition: 2s ease-in;
-
-	}
-	.card-description {
-		padding: 40px;
-		margin-top: 100px;
-		h5,
-		h3,
-		h2,
-		h4,
-		p,
-		i,
-		a {
-			color: white;
-			transition: .5s ease-in;
-
-		}
-		a {}
-
-	}
+.colored-background {
+    height: 2000px;
+    background-color: #5C6DBA;
+    .animalCop {}
+    .mindful {}
+    .jfogel {}
 }
 
+.card-section {
+    position: fixed;
 
+    align-items: center;
+    img.card-image {
+        height: auto;
+        width: 100%;
+        padding: 50px;
+    }
+    .card-description {
+        padding: 40px;
+        margin-top: 100px;
+        h5,
+        h3,
+        h2,
+        h4,
+        p,
+        i,
+        a {
+            color: white;
+            transition: .5s ease-in;
 
+        }
+        a {}
 
+    }
+}
 
 .card-section:hover .overlay {
-	background: pink;
-	transition: .9s;
+    background: pink;
+    transition: .9s;
 }
