@@ -3,7 +3,7 @@
 
 // Font Variables
 $abril:'Abril Fatface',
-cursive;
+serif;
 
 
 $roboto-slab: 'Roboto Slab',
@@ -16,106 +16,106 @@ serif;
 h3,
 h4,
 h5 {
-	font-family: $georgia;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	color: #232526;
-	line-height: 1.1;
+    font-family: $georgia;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #232526;
+    line-height: 1.1;
 }
 
 h1 {
-	font-family: $abril;
-	padding-bottom: 10px;
-	color: $light-grey;
+    font-family: $abril;
+    padding-bottom: 10px;
+    color: $light-grey;
 }
 
 h1 {
-	text-align: center;
-	font-size: 2em;
+    text-align: center;
+    font-size: 2em;
 }
 
 
 h2 {
-	font-family: $abril;
-	font-size: 3em;
+    font-family: $abril;
+    font-size: 3em;
 }
 
 h3 {
-	font-size: 2.2em;
-	font-variant-caps: all-small-caps;
-	font-weight: 600;
+    font-size: 2.2em;
+    font-variant-caps: all-small-caps;
+    font-weight: 600;
 
 }
 
 
 h4 {
-	font-size: 1.2em;
-	font-weight: bolder;
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 
 h6 {
-	font-size: 1.5em;
-	font-weight: bolder;
-	font-variant-caps: all-small-caps;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-variant-caps: all-small-caps;
 }
 
 p,
-	{
-	font-family: $georgia;
-	color: #000;
-	font-size: 1.2em;
-	line-height: 1.8;
+    {
+    font-family: $georgia;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 1.8;
 }
 
 li,
 ul,
 ol,
-	{
-	font-family: $georgia;
-	color: #000;
-	font-size: 1.1em;
+    {
+    font-family: $georgia;
+    color: #000;
+    font-size: 1.1em;
 }
 
 .figure-caption {
-	font-family: $lato;
-	color: #000;
-	font-size: .9em;
+    font-family: $lato;
+    color: #000;
+    font-size: .9em;
 }
 
 i {
-	font-family: $lato;
-	color: #000;
-	margin-bottom: 20px;
+    font-family: $lato;
+    color: #000;
+    margin-bottom: 20px;
 }
 
 a {
-	color: blue;
-	font-weight: 400;
+    color: blue;
+    font-weight: 400;
 }
 
 hr {
-	height: 1px;
-	border: none;
-	color: #000;
-	background-color: #000;
+    height: 1px;
+    border: none;
+    color: #000;
+    background-color: #000;
 }
 
 .bold {
-	font-weight: $bold;
+    font-weight: $bold;
 }
 
 .italic {
-	font-style: italic;
-	padding-left: 15px;
-	font-size: 1.2em;
-	border-left: 1px black solid;
-	font-weight: $bold;
+    font-style: italic;
+    padding-left: 15px;
+    font-size: 1.2em;
+    border-left: 1px black solid;
+    font-weight: $bold;
 }
 
 .light {
-	font-weight: $light;
+    font-weight: $light;
 }
 
 .title {
-	font-size: 42px;
+    font-size: 42px;
 }
