@@ -9,11 +9,11 @@ $(document).ready(function () {});
 
 // Add page load 
 $(window).on('load', function () { // makes sure the whole site is loaded 
-    $('#status').fadeOut(); // will first fade out the loading animation 
-    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-    $('body').delay(350).css({
-        'overflow': 'visible'
-    });
+	$('#status').fadeOut(); // will first fade out the loading animation 
+	$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+	$('body').delay(350).css({
+		'overflow': 'visible'
+	});
 })
 
 
@@ -24,26 +24,25 @@ $('col-sm-3').addClass("animated fadeInUp wow");
 
 //Add transitions
 $(document).scroll(function () {
-    var scrollPosition = $(window).scrollTop();
+	var scrollPosition = $(window).scrollTop();
 
 
-    if (scrollPosition <= 300) {
-
-        $('.colored-background').addClass('.animal-cop');
-        $('.card-description h2').text('AnimalCop Reporting');
-        $('img.card-image').attr("src", "src/img/animalCop/report-assets/Mockups/desktopMockup2.png");
-        $('.colored-background').css("background-color", "#5C6DBA");
-    } else if (scrollPosition > 300 && scrollPosition <= 800) {
-        $('.colored-background').addClass('.mindful');
-        $('.colored-background').css("background-color", "#AED5D5");
-        $('img.card-image').attr("src", "src/img/services_testing.jpg");
-        $('.card-description h2').text('Mindful');
-    } else if (scrollPosition > 800) {
-        $('.colored-background').addClass('.jfogel');
-        $('.colored-background').css("background-color", "blue");
-        $('img.card-image').attr("src", "src/img/transparent.png");
-        $('.card-description h2').text('JF Design & Build');
-    }
+	if (scrollPosition <= 300) {
+		$('.colored-background').addClass('.animal-cop');
+		$('.card-description h2').text('AnimalCop Reporting');
+		$('img.card-image').attr("src", "src/img/animalCop/report-assets/Mockups/desktopMockup2.png");
+		$('.colored-background').css("background-color", "#5C6DBA");
+	} else if (scrollPosition > 300 && scrollPosition <= 800) {
+		$('.colored-background').addClass('.mindful');
+		$('.colored-background').css("background-color", "#AED5D5");
+		$('img.card-image').attr("src", "src/img/services_testing.jpg");
+		$('.card-description h2').text('Mindful');
+	} else if (scrollPosition > 800) {
+		$('.colored-background').addClass('.jfogel');
+		$('.colored-background').css("background-color", "blue");
+		$('img.card-image').attr("src", "src/img/transparent.png");
+		$('.card-description h2').text('JF Design & Build');
+	}
 });
 
 

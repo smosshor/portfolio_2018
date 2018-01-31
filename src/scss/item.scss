@@ -68,3 +68,14 @@
 	}
 
 }
+
+.figure {
+	img {
+		box-shadow: 0px 5px 10px 0 grey;
+		padding: 15px
+	}
+
+	.figure-caption {
+		padding: 30px;
+	}
+}
