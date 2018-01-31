@@ -1,3 +1,4 @@
+//big sections
 .colored-background {
     height: 2000px;
     background-color: #5C6DBA;
@@ -6,16 +7,15 @@
     .jfogel {}
 }
 
-.card-section {
+.section {
     position: fixed;
-
     align-items: center;
-    img.card-image {
+    img.section-image {
         height: auto;
         width: 100%;
         padding: 50px;
     }
-    .card-description {
+    .section-description {
         padding: 40px;
         margin-top: 100px;
         h5,
@@ -34,7 +34,23 @@
     }
 }
 
-.card-section:hover .overlay {
-    background: pink;
+.card {
+    border: none;
+    margin: 2%;
+    img {
+        width: 100%;
+    }
+    .card-description {
+        display: none;
+    }
+}
+
+//actual cards in grid 
+.card:hover {
     transition: .9s;
+    box-shadow: 0 10px 20px 0px grey;
+    .card-description {
+
+        z-index: 2;
+    }
 }
