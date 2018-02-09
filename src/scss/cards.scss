@@ -36,6 +36,8 @@
 
 .card {
 	border: none;
+	border-radius: 0;
+	box-shadow: 0 0 30px lightgrey;
 	a {
 		text-decoration: none;
 		img {
@@ -49,9 +51,7 @@
 		}
 		&:hover {
 			.overlay {
-				border-radius: 4px;
-				transition: all ease-in-out .5s;
-				box-shadow: 0 0 30px lightgrey;
+				transition: all ease-in-out .9s;
 				z-index: 2;
 				position: absolute;
 				top: 0;
@@ -60,23 +60,28 @@
 				right: 0;
 				height: 100%;
 				width: 100%;
-				transition: .5s ease;
 				background-color: rgba(59, 91, 120, 0.5);
 				display: block;
 				.card-description {
-					font-size: 20px;
+					transition: all ease-in-out .5s;
 					position: absolute;
-					top: 50%;
+					top: 90%;
 					left: 50%;
+					-webkit-transform: translate(-50%, -50%);
 					transform: translate(-50%, -50%);
 					-ms-transform: translate(-50%, -50%);
-					text-align: center;
+					width: 100%;
 					display: block;
 					h5,
 					.figure-caption {
 						color: white;
 					}
+					h5 {
+						padding: 0;
+					}
 				}
+
+
 			}
 		}
 	}
