@@ -1,56 +1,83 @@
 //big sections
 .colored-background {
-    height: 2000px;
-    background-color: #5C6DBA;
-    .animalCop {}
-    .mindful {}
-    .jfogel {}
+	height: 2000px;
+	background-color: #5C6DBA;
+	.animalCop {}
+	.mindful {}
+	.jfogel {}
 }
 
 .section {
-    position: fixed;
-    align-items: center;
-    img.section-image {
-        height: auto;
-        width: 100%;
-        padding: 50px;
-    }
-    .section-description {
-        padding: 40px;
-        margin-top: 100px;
-        h5,
-        h3,
-        h2,
-        h4,
-        p,
-        i,
-        a {
-            color: white;
-            transition: .5s ease-in;
+	position: fixed;
+	align-items: center;
+	img.section-image {
+		height: auto;
+		width: 100%;
+		padding: 50px;
+	}
+	.section-description {
+		padding: 40px;
+		margin-top: 100px;
+		h5,
+		h3,
+		h2,
+		h4,
+		p,
+		i,
+		a {
+			color: white;
+			transition: .5s ease-in;
 
-        }
-        a {}
+		}
+		a {}
 
-    }
+	}
 }
 
 .card {
-    border: none;
-    margin: 2%;
-    img {
-        width: 100%;
-    }
-    .card-description {
-        display: none;
-    }
-}
-
-//actual cards in grid 
-.card:hover {
-    transition: .9s;
-    box-shadow: 0 10px 20px 0px grey;
-    .card-description {
-
-        z-index: 2;
-    }
+	border: none;
+	a {
+		text-decoration: none;
+		img {
+			width: 100%;
+		}
+		.overlay {
+			display: none;
+			.card-description {
+				display: none;
+			}
+		}
+		&:hover {
+			.overlay {
+				border-radius: 4px;
+				transition: all ease-in-out .5s;
+				box-shadow: 0 0 30px lightgrey;
+				z-index: 2;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 100%;
+				width: 100%;
+				transition: .5s ease;
+				background-color: rgba(59, 91, 120, 0.5);
+				display: block;
+				.card-description {
+					font-size: 20px;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					-ms-transform: translate(-50%, -50%);
+					text-align: center;
+					display: block;
+					h5,
+					.figure-caption {
+						color: white;
+					}
+				}
+			}
+		}
+	}
 }
