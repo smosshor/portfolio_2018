@@ -6,7 +6,12 @@ $gutter: 15px;
 $animate: all 0.2s ease-in-out;
 $rounded: 4px;
 
-
+//top nav
+.navbar.navbar-expand-lg {
+	@media (min-width: 768px) {
+		display:none;
+	}
+}
 
 .sidebar {
 	bottom: 0;
@@ -19,6 +24,7 @@ $rounded: 4px;
 	-ms-flex-pack: center;
 	height: 100vh;
 	background: white;
+	justify-content: center;
 	@media only (max-width: 768px) {
 		display: none;
 	}

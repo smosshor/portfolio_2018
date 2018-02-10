@@ -37,7 +37,8 @@
 .card {
 	border: none;
 	border-radius: 0;
-	box-shadow: 0 0 30px lightgrey;
+	position: initial;
+	background-color: rgba(0, 0, 0, 0);
 	a {
 		text-decoration: none;
 		img {
@@ -75,13 +76,11 @@
 					h5,
 					.figure-caption {
 						color: white;
-					}
-					h5 {
 						padding: 0;
+						padding-left: 10%;
+
 					}
 				}
-
-
 			}
 		}
 	}
