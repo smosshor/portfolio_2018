@@ -6,7 +6,6 @@
 */
 
 $(document).ready(function () {});
-
 // Add page load 
 $(window).on('load', function () { // makes sure the whole site is loaded 
 	$('#status').fadeOut(); // will first fade out the loading animation 
