@@ -1,56 +1,95 @@
 //big sections
 .colored-background {
-    height: 2000px;
-    background-color: #5C6DBA;
-    .animalCop {}
-    .mindful {}
-    .jfogel {}
+	height: 2000px;
+	background-color: #5C6DBA;
+	.animalCop {}
+	.mindful {}
+	.jfogel {}
 }
 
 .section {
-    position: fixed;
-    align-items: center;
-    img.section-image {
-        height: auto;
-        width: 100%;
-        padding: 50px;
-    }
-    .section-description {
-        padding: 40px;
-        margin-top: 100px;
-        h5,
-        h3,
-        h2,
-        h4,
-        p,
-        i,
-        a {
-            color: white;
-            transition: .5s ease-in;
+	position: fixed;
+	align-items: center;
+	img.section-image {
+		height: auto;
+		width: 100%;
+		padding: 50px;
+	}
+	.section-description {
+		padding: 40px;
+		margin-top: 100px;
+		h5,
+		h3,
+		h2,
+		h4,
+		p,
+		i,
+		a {
+			color: white;
+			transition: .5s ease-in;
 
-        }
-        a {}
+		}
+		a {}
 
-    }
+	}
 }
 
 .card {
-    border: none;
-    margin: 2%;
-    img {
-        width: 100%;
-    }
-    .card-description {
-        display: none;
-    }
+	border: none;
+	border-radius: 0;
+	position: initial;
+	background-color: rgba(0, 0, 0, 0);
+	a {
+		text-decoration: none;
+		img {
+			width: 100%;
+			padding: 5%;
+		}
+		.overlay {
+			display: none;
+			.card-description {
+				display: none;
+			}
+		}
+	}
 }
 
-//actual cards in grid 
-.card:hover {
-    transition: .9s;
-    box-shadow: 0 10px 20px 0px grey;
-    .card-description {
+.card {
+	&:hover {
 
-        z-index: 2;
-    }
+		img {
+			padding: 0;
+			transition: .5s;
+		}
+		.overlay {
+			transition: all ease-in-out .9s;
+			z-index: 2;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(207, 216, 224, 0.7);
+			display: block;
+			.card-description {
+				transition: all ease-in-out .5s;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+				width: 100%;
+				display: block;
+				h1,
+				.figure-caption {
+					padding: 0;
+					text-align: center;
+					color: #333;
+				}
+			}
+		}
+	}
 }
