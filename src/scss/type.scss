@@ -74,11 +74,14 @@ ol,
 	font-size: 1.1em;
 }
 
-.figure-caption {
+figcaption {
 	font-family: $lato;
 	color: #333;
-	font-weight: 300;
+	font-weight: $light;
 	font-size: .9em;
+	padding: 10px;
+	text-align: center;
+
 }
 
 i {
