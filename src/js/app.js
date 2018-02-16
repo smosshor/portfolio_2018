@@ -39,9 +39,3 @@ $('#itemx a').click(function () {
 	//hide the content on the currrent page 
 	$('#content').hide('fast', loadContent);
 });
-
-//lightbox
-$(document).on('click', '[data-toggle="lightbox"]', function (event) {
-	event.preventDefault();
-	$(this).ekkoLightbox();
-});
