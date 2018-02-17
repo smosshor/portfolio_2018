@@ -8,75 +8,72 @@ $rounded: 4px;
 
 //top nav
 .navbar.navbar-expand-lg {
-    @media (min-width: 768px) {
-        display:none;
-    }
+	@media (min-width: 768px) {
+		display:none;
+	}
 }
 
 .bg-light {
-    background-color: #fff!important;
+	background-color: #fff!important;
 }
 
 .active {
-    background: none;
-    border-bottom: 4px solid #2d215b;
-    display: inline-block;
-    white-space: nowrap;
-    padding: 8px 8px 8px 8px;
-    transition: $animate;
-    transition-duration: 0.2s;
+	background: none;
+	border-bottom: 4px solid #2d215b;
+	display: inline-block;
+	white-space: nowrap;
+	padding: 8px 8px 8px 8px;
+	transition: $animate;
+	transition-duration: 0.2s;
 }
 
 .sidebar {
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    overflow-x: hidden;
-    overflow-y: auto;
-    margin-left: 0;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    height: 100vh;
-    background: white;
-    text-align: center;
-    justify-content: center;
-    @media only (max-width: 768px) {
-        display: none;
-    }
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-left: 0;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	height: 100vh;
+	background: white;
+	text-align: center;
+	justify-content: center;
+	@media only (max-width: 768px) {
+		display: none;
+	}
 }
 
 .nav {
 
-    .nav-item {
-        text-align: center;
-        color: black;
-        a.nav-link {
-            border-radius: 0;
-            font-size: 16px;
-            color: black;
-            font-weight: $light;
-            font-family: $abril;
-            &:hover {
-                background: none;
-                border-bottom: 4px solid #2d215b;
-                max-width: 10%;
-                display: inline-block;
-                white-space: nowrap;
-                padding: 8px 8px 8px 8px;
-                transition: $animate;
-                transition-duration: 0.2s;
-            }
-        }
-        .active {
-            background: none;
-            border-bottom: 4px solid #1297AD;
-            max-width: 10%;
-
-            display: inline-block;
-            white-space: nowrap;
-            padding: 8px 8px 8px 8px;
-            transition: $animate;
-            transition-duration: 0.2s;
-        }
-    }
+	.nav-item {
+		text-align: center;
+		color: black;
+		a.nav-link {
+			border-radius: 0;
+			font-size: 16px;
+			color: black;
+			font-weight: $light;
+			font-family: $abril;
+			&:hover {
+				background: none;
+				border-bottom: 4px solid #2d215b;
+				display: inline-block;
+				white-space: nowrap;
+				padding: 8px 8px 8px 8px;
+				transition: $animate;
+				transition-duration: 0.2s;
+			}
+		}
+		.active {
+			background: none;
+			border-bottom: 4px solid #1297AD;
+			display: inline-block;
+			white-space: nowrap;
+			padding: 8px 8px 8px 8px;
+			transition: $animate;
+			transition-duration: 0.2s;
+		}
+	}
 }
