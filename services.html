@@ -4,6 +4,7 @@
 <html lang="en">
 <!--<![endif]-->
 
+
 <head>
     <meta charset="utf-8">
     <title>Sarah Moss-Horwitz</title>
@@ -12,12 +13,7 @@
 
     <!-- Mobile Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="src/img/site/logo_smh.png">
-
-    <!-- Web Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300,200' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -25,88 +21,117 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="src/img/site/logo_smh.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- custom css -->
     <link href="build/css/main.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="container-fluid">
-
-        <div class="row">
-
-            <div class="col-sm-12 col-md-2">
-                <div class="row">
-                    <nav class="navbar sidebar animated fadeInLeft">
-                        <ul class="nav flex-column">
-                            <img style="width:100%" src="src/img/logo_smh.png">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html">work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="services.html">services
-                        </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">about</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" target="_blank" href="https://www.behance.net/shorwitz0e7b">
-                                    <i class="fa fa-behance" aria-hidden="true"></i>
+<body class="home">
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <h2> sarah mh</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">work</a>
+                <a class="nav-item nav-link" href="play.html">play</a>
+                <a class="nav-item nav-link" href="about.html">about</a>
+                <a class="nav-item nav-link active" href="services.html">services</a>
+                <a class=" nav-item nav-link" target="_blank" href="https://www.behance.net/shorwitz0e7b">
+				 <i class="fa fa-behance" aria-hidden="true"></i>
+				</a>
+                <a class="nav-link nav-item" target="_blank" href="https://www.linkedin.com/in/sarahmh/">
+					<i class="fa fa-linkedin" aria-hidden="true"></i>
+				</a>
+                <a class="nav-link nav-item" target="_blank" href="https://medium.com/@sarahmosshorwitz">
+<i class="fa fa-medium" aria-hidden="true"></i>
 </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/sarahmh/">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" target="_blank" href="https://medium.com/@sarahmosshorwitz">
-                            <i class="fa fa-medium" aria-hidden="true"></i>
-</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
             </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-2">
+            <nav class="navbar sidebar animated fadeInLeft js-is-sticky">
+                <ul class="nav flex-column">
+                    <img style="width:100%" src="src/img/site/logo_smh.png">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="play.html">play</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.behance.net/shorwitz0e7b">
+                         <i class="fa fa-behance" aria-hidden="true"></i>
+						</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/sarahmh/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+						</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://medium.com/@sarahmosshorwitz">
+                            <i class="fa fa-medium" aria-hidden="true"></i>
+						</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
 
-            <div class="col-xs-12 col-md-10 right-section">
-                <div class="row">
-                    <!-- Intro -->
-                    <div class="col-md-12">
-                        <h2 style="margin-top:200px"> Let's work together</h2>
-                        <p> I can help you get to know your users, wireframe and design UI, and build websites. Have a project in mind? Get in touch at <a href="mailto:smosshorwitz@gmail.com ">smosshorwitz@gmail.com</a>.</p>
-                    </div>
+        <div class="col-xs-12 col-md-10 right-section">
+            <div class="row">
+                <!-- Intro -->
+                <div class="col-md-12">
+                    <h2 style="margin-top:200px"> Let's work together</h2>
+                    <p> I can help you get to know your users, wireframe and design UI, and build websites. Have a project in mind? Get in touch at <a href="mailto:smosshorwitz@gmail.com ">smosshorwitz@gmail.com</a>.</p>
+                </div>
 
-                    <!-- UX skills -->
-                    <div class="col-xs-12 col-md-5">
-                        <h4>Heuristic Evaluation & Expert Review</h4>
-                        <p>Have a prototype or existing interface and looking for some quick UX feedback? A heuristic evaluation uses Neilson's Design principles to analyze your interface, and prioritize what is most important to improve.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-5">
-                        <h4>Rapid Prototyping</h4>
-                        <p>Have a bunch of ideas but not quite sure what will work best? I can help you design and run a study to gather insights on what's working best. </p>
-                    </div>
-                    <div class="col-xs-12 col-md-5">
-                        <h4>Usability Testing</h4>
-                        <p>Usability Testing helps you gain deep insights into how your users are interacting with your product, or a prototype. I have experience designing, running and collecting data on usability testing sessions with real-live-humans in labs with 2-way mirrors, but also on the phone, in elementary school classrooms and with video software.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-5">
-                        <h4>Wireframes and Sitemaps </h4>
-                        <p>Have a prototype or existing interface and looking for some quick UX feedback? A heuristic evaluation uses Neilson's Design principles to analyze your interface, and prioritize what is most important to improve.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-5">
-                        <h4>Interactive Prototypes</h4>
-                        <p>Have a bunch of ideas but not quite sure what will work best? I can help you design and run a study to gather insights on what's working best. </p>
-                    </div>
-                    <div class="col-xs-12 col-md-5">
-                        <h4>Hi-Fi Mockups and Specs</h4>
-                        <p>I can help you crossing the finish line with your mockups, making sure they're pixel-perfect and ready to be built</p>
-                    </div>
+                <!-- UX skills -->
+                <div class="col-xs-12 col-md-5">
+                    <h4>Heuristic Evaluation & Expert Review</h4>
+                    <p>Have a prototype or existing interface and looking for some quick UX feedback? A heuristic evaluation uses Neilson's Design principles to analyze your interface, and prioritize what is most important to improve.</p>
+                </div>
+                <div class="col-xs-12 col-md-5">
+                    <h4>Rapid Prototyping</h4>
+                    <p>Have a bunch of ideas but not quite sure what will work best? I can help you design and run a study to gather insights on what's working best. </p>
+                </div>
+                <div class="col-xs-12 col-md-5">
+                    <h4>Usability Testing</h4>
+                    <p>Usability Testing helps you gain deep insights into how your users are interacting with your product, or a prototype. I have experience designing, running and collecting data on usability testing sessions with real-live-humans in labs with 2-way mirrors, but also on the phone, in elementary school classrooms and with video software.</p>
+                </div>
+                <div class="col-xs-12 col-md-5">
+                    <h4>Wireframes and Sitemaps </h4>
+                    <p>Have a prototype or existing interface and looking for some quick UX feedback? A heuristic evaluation uses Neilson's Design principles to analyze your interface, and prioritize what is most important to improve.</p>
+                </div>
+                <div class="col-xs-12 col-md-5">
+                    <h4>Interactive Prototypes</h4>
+                    <p>Have a bunch of ideas but not quite sure what will work best? I can help you design and run a study to gather insights on what's working best. </p>
+                </div>
+                <div class="col-xs-12 col-md-5">
+                    <h4>Hi-Fi Mockups and Specs</h4>
+                    <p>I can help you crossing the finish line with your mockups, making sure they're pixel-perfect and ready to be built</p>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     </div>
     </div>
