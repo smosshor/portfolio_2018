@@ -1,18 +1,21 @@
 /* buttons */
 
 .btn {
-	font-weight: 200;
-	font-weight: 400;
-	border-radius: 4px;
-	margin-bottom: 50px;
-	border: none;
+    font-weight: 200;
+    font-weight: 400;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    border: none;
 }
 
 .btn-primary {
-	padding: 10px;
-	transition: .8s;
+    transition: .8s;
+    border-radius: 50px;
+    margin: 20px 0;
+    padding: 10px 40px;
+    background: #1097ad;
 }
 
 .btn:hover {
-	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
