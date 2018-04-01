@@ -35,6 +35,8 @@
 }
 
 .card {
+    box-shadow: lightgrey 0 4px 8px 0;
+    border-radius: 4px;
     border: none;
     border-radius: 0;
     position: initial;
@@ -91,5 +93,16 @@
                 }
             }
         }
+    }
+}
+
+.services {
+    .card {
+        box-shadow: lightgrey 0 4px 8px 0;
+        border-radius: 4px;
+
+    }
+    .card-deck {
+        margin-bottom: 20px;
     }
 }
