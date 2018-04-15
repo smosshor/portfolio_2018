@@ -22,15 +22,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="src/img/site/logo_smh.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- custom css -->
     <link href="build/css/main.css" rel="stylesheet">
 </head>
 
-<body>
-    <div id="preloader">
+<body class="home">
+    <div id="preloader-1">
         <div id="status">&nbsp;</div>
     </div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
@@ -45,6 +45,26 @@
                 <a class="nav-item nav-link active" href="index.html">work</a>
                 <a class="nav-item nav-link" href="play.html">play</a>
                 <a class="nav-item nav-link" href="about.html">about</a>
+
+                <a class="nav-item nav link typeform-share button" href="https://sarahmosshorwitz.typeform.com/to/KpEyR6" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Services </a>
+                <script>
+                    (function() {
+                        var qs, js, q, s, d = document,
+                            gi = d.getElementById,
+                            ce = d.createElement,
+                            gt = d.getElementsByTagName,
+                            id = "typef_orm_share",
+                            b = "https://embed.typeform.com/";
+                        if (!gi.call(d, id)) {
+                            js = ce.call(d, "script");
+                            js.id = id;
+                            js.src = b + "embed.js";
+                            q = gt.call(d, "script")[0];
+                            q.parentNode.insertBefore(js, q)
+                        }
+                    })()
+
+                </script>
                 <a class=" nav-item nav-link" target="_blank" href="https://www.behance.net/shorwitz0e7b">
 				 <i class="fa fa-behance" aria-hidden="true"></i>
 				</a>
@@ -68,9 +88,29 @@
                     <li class="nav-item">
                         <a class="nav-link" href="play.html">play</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link typeform-share" href="https://sarahmosshorwitz.typeform.com/to/KpEyR6" data-mode="popup" target="_blank">services</a>
+                        <script>
+                            (function() {
+                                var qs, js, q, s, d = document,
+                                    gi = d.getElementById,
+                                    ce = d.createElement,
+                                    gt = d.getElementsByTagName,
+                                    id = "typef_orm_share",
+                                    b = "https://embed.typeform.com/";
+                                if (!gi.call(d, id)) {
+                                    js = ce.call(d, "script");
+                                    js.id = id;
+                                    js.src = b + "embed.js";
+                                    q = gt.call(d, "script")[0];
+                                    q.parentNode.insertBefore(js, q)
+                                }
+                            })()
+
+                        </script>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="_blank" href="https://www.behance.net/shorwitz0e7b">
@@ -94,11 +134,37 @@
 
 
         <!--Cards to click on-->
-        <div class="col-xs-12 col-md-10 right-section float-right">
+        <div class="col-xs-12 col-md-10 right-section float-right" style="background:url(src/img/home/colorful-bg-01.png)">
 
             <h2 style="margin-top:50px; padding-bottom: 50px;"></h2>
             <div class="row">
 
+                <div class="col-xs-12 col-md-6  fadeInRight qchat">
+                    <div class="card">
+                        <a href="qchat.html ">
+							<img src="src/img/q-chat/landing-page1.png ">
+						 <div class="overlay">
+							<div class="card-description ">
+								<h1> Q Chat Space</h1>
+								<p class="figure-caption">Branding, UI and Front-End Development </p>
+							</div>
+						</div>
+					</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 fadeInRight dentist">
+                    <div class="card dentist">
+                        <a href="DentistLink.html">
+							<img style="padding-top: 20%;" src="src/img/dentistlink/dentist-thumb.png">
+						 <div class="overlay">
+                        <div class="card-description container">
+								<h1>DentistLink</h1>
+								<p class="figure-caption">Helping Medicare patients access Dental Care w/Acora Foundation</p>
+							</div>
+						</div>
+					</a>
+                    </div>
+                </div>
 
                 <div class="col-xs-12 col-md-6  fadeInRight animalCop">
                     <div class="card  animalCop">
@@ -128,32 +194,8 @@
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-md-6  fadeInRight qchat">
-                    <div class="card">
-                        <a href="qchat.html ">
-							<img src="src/img/q-chat/landing-page1.png ">
-						 <div class="overlay">
-							<div class="card-description ">
-								<h1> Q Chat Space</h1>
-								<p class="figure-caption">Branding, UI and Front-End Development </p>
-							</div>
-						</div>
-					</a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 fadeInRight processfolio">
-                    <div class="card processfolio">
-                        <a href="processfolio.html">
-							<img src="src/img/processfolio/teacher-Dash-Student-Projects.png">
-						 <div class="overlay">
-                        <div class="card-description container">
-								<h1> Processfolio</h1>
-								<p class="figure-caption">Portfolios for Project Based Learning</p>
-							</div>
-						</div>
-					</a>
-                    </div>
-                </div>
+
+
                 <!--coming soon 
 				<div class="col-xs-12 col-md-6 fadeInRight yemen">
 					<div class="card">
@@ -233,34 +275,6 @@
                     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
                     ga('create', 'UA-92514323-1', 'auto');
                     ga('send', 'pageview');
-
-                </script>
-
-                <script type='text/javascript' data-cfasync='false'>
-                    window.purechatApi = {
-                        l: [],
-                        t: [],
-                        on: function() {
-                            this.l.push(arguments);
-                        }
-                    };
-                    (function() {
-                        var done = false;
-                        var script = document.createElement('script');
-                        script.async = true;
-                        script.type = 'text/javascript';
-                        script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript';
-                        document.getElementsByTagName('HEAD').item(0).appendChild(script);
-                        script.onreadystatechange = script.onload = function(e) {
-                            if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
-                                var w = new PCWidget({
-                                    c: 'e7c81369-aa1c-4579-9ed5-e8cc1de4985b',
-                                    f: true
-                                });
-                                done = true;
-                            }
-                        };
-                    })();
 
                 </script>
 </body>

@@ -21,13 +21,14 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="shortcut icon" href="src/img/site/logo_smh.png">
 
     <!-- custom css -->
     <link href="build/css/main.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="preloader">
+    <div id="preloader-1">
         <div id="status">&nbsp;</div>
     </div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
@@ -70,6 +71,27 @@
                         <a class="nav-link" href="about.html">about</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link typeform-share" href="https://sarahmosshorwitz.typeform.com/to/KpEyR6" data-mode="popup" target="_blank">services</a>
+                        <script>
+                            (function() {
+                                var qs, js, q, s, d = document,
+                                    gi = d.getElementById,
+                                    ce = d.createElement,
+                                    gt = d.getElementsByTagName,
+                                    id = "typef_orm_share",
+                                    b = "https://embed.typeform.com/";
+                                if (!gi.call(d, id)) {
+                                    js = ce.call(d, "script");
+                                    js.id = id;
+                                    js.src = b + "embed.js";
+                                    q = gt.call(d, "script")[0];
+                                    q.parentNode.insertBefore(js, q)
+                                }
+                            })()
+
+                        </script>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" target="_blank" href="https://www.behance.net/shorwitz0e7b">
                          <i class="fa fa-behance" aria-hidden="true"></i>
 						</a>
@@ -96,11 +118,10 @@
                     </div>
                     <div class="col-md-10 col-centered">
                         <h2>Q-Chat</h2>
+                        <a class="btn btn-primary" href="https://q-chatspace-staging-2.herokuapp.com/">See it live</a>
                         <br><br>
-                        <p>Q Chat Space provides online discussion groups for LGBTQ+ teens ages 13 to 19. It is not a forum. It is live and chat based; there is no video or audio. Everyone is chatting during the same pre-scheduled time.   Conversations are facilitated by experienced staff who work at LGBT centers around the country. </p>
-
-                        <p> Volunteer Consultant Jan 2018 - March 2018 </p>
-                        <p>I helped Q-Chat design and build out the front-end for their web application, along with product designer Samantha Hankins. I created black and white wireframes before preference testing a higher fidelity prototype with teens, and building out the CSS with the support of the application developers.</p>
+                        <p>Q Chat Space provides online discussion groups for LGBTQ+ teens ages 13 to 19. It is not a forum. It is live and chat based; there is no video or audio. Everyone is chatting during the same pre-scheduled time.   Conversations are facilitated by experienced staff who work at LGBT centers around the country. <br><br> Volunteer Consultant Jan 2018 - March 2018
+                            <br><br> I designed the UI and built out the front-end for their web application. I created black and white wireframes before preference testing a higher fidelity prototype with teens, and building out the CSS with the support of the application developers.</p>
 
                         <h3>Lo-Fidelity Wireframes</h3>
                         <p> While Q Chat Space was initially conceptualized as a native mobile app, the team had recently decided to reduce overhead and build it as a responsive web application instead. A previous volunteer designer had created a lo-fidelity prototype of the mobile app, and even tested it with high school volunteers, so I extracted some insights and content from on this original design, making sure to improve on it and translate it to a more fluid desktop and mobile experience. Sam had worked on some of these previous iterations, so we were able to talk through insights from that experience that we should make sure to apply in these designs.</p>

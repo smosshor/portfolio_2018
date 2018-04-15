@@ -29,7 +29,7 @@ body {
 }
 
 .qchat {
-    background: #B090E8;
+    background: #c9e6fe;
 
 }
 
@@ -39,6 +39,10 @@ body {
 
 .processfolio {
     background: #97c6c6;
+}
+
+.dentist {
+    background: #E5F4F7;
 }
 
 .crowdrise {
@@ -63,7 +67,7 @@ body {
 
 
 //Preloader content
-#preloader {
+#preloader-1 {
     position: fixed;
     top: 0;
     left: 0;
@@ -74,13 +78,12 @@ body {
 }
 
 #status {
-
     width: 200px;
     height: 200px;
     position: absolute;
     left: 50%;
     top: 50%;
-    background-image: url(https://preview.ibb.co/nHoD5n/preloader.gif);
+    background-image: url(/src/img/site/preloader-1.gif);
     /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
