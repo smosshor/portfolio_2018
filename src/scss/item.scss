@@ -24,25 +24,9 @@
 		width: 100%;
 	}
 	h3 {
-		padding-top: 30px;
-	}
-
-	h3.lines::after,
-	h3.lines::before {
-		border-bottom: 5px solid #dadfe2;
-		content: "";
-		display: inline-block;
-		height: .1em;
-		position: relative;
-		vertical-align: middle;
-		margin-bottom: .15em;
-		width: 25%;
-	}
-	h3.lines::before {
-		right: 5%;
-	}
-	h3.lines::after {
-		left: 5%;
+		padding-top: 50px;
+		border-top: 2px solid;
+		font-size: 36px;
 	}
 	.feature {
 		img {}
